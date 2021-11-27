@@ -1,0 +1,18 @@
+@import "Variables";
+
+html {
+  background-color: #4db1d2;
+  background-attachment: fixed;
+  background-size: cover;
+  /* background by SVGBackgrounds.com */
+}
+
+.App {
+    margin: 3.8rem auto auto auto;
+    width: 350px;
+
+  .capitalize {
+    text-transform: capitalize;
+    margin-top: 2rem;
+  }
+}
