@@ -1,0 +1,56 @@
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  font-size: 50rem;
+}
+
+.hamsBtn {
+  margin: 1rem 0 1rem 1.5rem;
+  background-color: #111A3B;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100px;
+  color: white;
+  border-width: 1px;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background-color: rgba(17, 26, 59, 0.9);
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 5rem;
+}
+
+/*# sourceMappingURL=NavBar.css.map */

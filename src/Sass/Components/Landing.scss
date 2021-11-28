@@ -1,4 +1,44 @@
-.landing_container 
-{
-    font-size: 3rem;
+.landing_container {
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 50rem;
+    margin: 0 auto;
+    font-family: 'Dancing Script', cursive;
+    background-color: rgba($color: #111A3B, $alpha: .6);
+    
+
+    p {
+        font-size: 3.5rem;
+        color: white;
+        font-weight: 700;
+        padding: 1rem 2rem;
+        margin: 2rem;
+        text-align: center;
+    }
+
+
+    img {
+        margin: 0 auto;
+        height: 375px;
+        width: 300px;
+        opacity: .4;
+        border-radius: 20rem;
+    }
+
+    .landingLink {
+        border-radius: 1rem;
+        padding: .3rem;
+        position: relative;
+        text-decoration: none;
+        color: white;
+        font-size: .8rem;
+        margin: -35px auto;
+        background-color: rgba($color: #566CF1, $alpha: .3);
+    }
+
+    .landingLink:hover{
+        background-color: rgba($color: #F0EBF0, $alpha: .5);
+        color: black;
+    }
 }

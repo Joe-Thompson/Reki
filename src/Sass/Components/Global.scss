@@ -1,15 +1,17 @@
 @import "Variables";
 
 html {
-  background-color: #4db1d2;
-  background-attachment: fixed;
-  background-size: cover;
+  
   /* background by SVGBackgrounds.com */
 }
 
 .App {
-    margin: 3.8rem auto auto auto;
     width: 350px;
+    background: url("./images/bg4.jpg");
+    background-position: center;
+    background-size: 70%;
+    background-position-y: top;
+
 
   .capitalize {
     text-transform: capitalize;

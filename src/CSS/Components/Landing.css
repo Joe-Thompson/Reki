@@ -1,5 +1,40 @@
 .landing_container {
-  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 50rem;
+  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  background-color: rgba(17, 26, 59, 0.6);
+}
+.landing_container p {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+.landing_container img {
+  margin: 0 auto;
+  height: 375px;
+  width: 300px;
+  opacity: 0.4;
+  border-radius: 20rem;
+}
+.landing_container .landingLink {
+  border-radius: 1rem;
+  padding: 0.3rem;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  margin: -35px auto;
+  background-color: rgba(86, 108, 241, 0.3);
+}
+.landing_container .landingLink:hover {
+  background-color: rgba(240, 235, 240, 0.5);
+  color: black;
 }
 
 /*# sourceMappingURL=Landing.css.map */

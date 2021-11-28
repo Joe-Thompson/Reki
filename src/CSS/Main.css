@@ -51,23 +51,166 @@ table {
 }
 
 html {
-  background-color: #4db1d2;
-  background-attachment: fixed;
-  background-size: cover;
   /* background by SVGBackgrounds.com */
 }
 
 .App {
-  margin: 3.8rem auto auto auto;
   width: 350px;
+  background: url("./images/bg4.jpg");
+  background-position: center;
+  background-size: 70%;
+  background-position-y: top;
 }
 .App .capitalize {
   text-transform: capitalize;
   margin-top: 2rem;
 }
 
+.navBar {
+  position: relative;
+}
+
+.navBar button {
+  position: fixed;
+  left: 40px;
+  top: 40px;
+  z-index: 10;
+  font-size: 50rem;
+}
+
+.hamsBtn {
+  margin: 1rem 0 1rem 1.5rem;
+  background-color: #111A3B;
+  padding: 0.5rem;
+  border-radius: 0.5rem;
+  width: 100px;
+  color: white;
+  border-width: 1px;
+}
+
+.menuNav {
+  overflow-y: scroll;
+  scroll-behavior: smooth;
+  list-style: none;
+  position: fixed;
+  top: 0;
+  background-color: rgba(17, 26, 59, 0.9);
+  left: 0;
+  bottom: 0;
+  height: 100vh;
+  width: 0;
+  overflow: hidden;
+  max-width: 290px;
+  z-index: 9;
+}
+
+.menuNav.showMenu {
+  width: 100%;
+}
+
+a {
+  display: block;
+  padding: 10px 40px;
+  text-decoration: none;
+  color: white;
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.menuNav li:first-child {
+  margin-top: 5rem;
+}
+
 .landing_container {
-  font-size: 3rem;
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  height: 50rem;
+  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  background-color: rgba(17, 26, 59, 0.6);
+}
+.landing_container p {
+  font-size: 3.5rem;
+  color: white;
+  font-weight: 700;
+  padding: 1rem 2rem;
+  margin: 2rem;
+  text-align: center;
+}
+.landing_container img {
+  margin: 0 auto;
+  height: 375px;
+  width: 300px;
+  opacity: 0.4;
+  border-radius: 20rem;
+}
+.landing_container .landingLink {
+  border-radius: 1rem;
+  padding: 0.3rem;
+  position: relative;
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+  margin: -35px auto;
+  background-color: rgba(86, 108, 241, 0.3);
+}
+.landing_container .landingLink:hover {
+  background-color: rgba(240, 235, 240, 0.5);
+  color: black;
+}
+
+.dashboard_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  background-color: rgba(17, 26, 59, 0.4);
+}
+.dashboard_container .dbIntro {
+  display: flex;
+  width: 280px;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.dashboard_container .dbIntro h2 {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+.dashboard_container .dbIntro h4 {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+.dashboard_container .dbIntro p {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+}
+.dashboard_container .dbIntro img {
+  margin: 1rem auto;
+  border-radius: 18rem;
+  height: 150px;
+  width: 150px;
+  opacity: 0.8;
 }
 
 /*# sourceMappingURL=Main.css.map */

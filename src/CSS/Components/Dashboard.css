@@ -1,0 +1,54 @@
+.dashboard_container {
+  display: flex;
+  flex-direction: column;
+  width: 300px;
+  margin: 0 auto;
+  font-family: "Dancing Script", cursive;
+  background-color: rgba(17, 26, 59, 0.4);
+}
+.dashboard_container .dbIntro {
+  display: flex;
+  width: 280px;
+  margin: 2rem auto;
+  border-radius: 2rem;
+  flex-direction: column;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+.dashboard_container .dbIntro h2 {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 2rem;
+}
+.dashboard_container .dbIntro h4 {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+  font-size: 0.8rem;
+}
+.dashboard_container .dbIntro p {
+  border-radius: 2rem;
+  color: white;
+  font-family: "Spartan", sans-serif;
+  padding: 10px;
+  line-height: 1.5;
+  text-align: center;
+  padding: 1.5rem;
+}
+.dashboard_container .dbIntro img {
+  margin: 1rem auto;
+  border-radius: 18rem;
+  height: 150px;
+  width: 150px;
+  opacity: 0.8;
+}
+
+/*# sourceMappingURL=Dashboard.css.map */

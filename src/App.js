@@ -1,23 +1,23 @@
-import './CSS/Main.css';
+import React from 'react';
+import Routing from './Components/AppRouting';
+import { withRouter } from 'react-router';
+import NavBar from './Components/NavBar';
+
 
 function App() {
+
+  let landing = false;
+
+  if (window.location.pathname != '/') {
+    landing = true;
+  }
+
   return (
-    <div className="landing_container">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className="App">
+      {landing && <NavBar />}
+      <Routing />
     </div>
   );
 }
 
-export default App;
+export default withRouter(App);
